@@ -38,7 +38,7 @@ namespace Assets.Scripts.UI.InGame.HUD
 
         private int ScaleDamageText(int damage)
         {
-            var baseFontSize = 150;
+            var baseFontSize = 70; //was 150 for normal unity text
             var lowestDamageScaling = 10;
             var highestDamageScaling = 1400;
             var rateOfChange = 0.216;
